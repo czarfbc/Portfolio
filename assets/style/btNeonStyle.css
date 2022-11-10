@@ -1,0 +1,130 @@
+.neon_1{
+    font-size: 35px;
+    font-weight: 700;
+    text-decoration: none;
+    
+    margin-top: 90px;
+    display: inline-block;
+    color: #f1b;
+    padding: 16px 64px;
+    border: #f1b 8px solid; 
+    border-radius: 16px;
+    background-color: #10161F;
+
+
+    box-shadow: inset 0 0 32px 0 #f1b, 0 0 32px 0 #f1b;
+    text-shadow: 0 0 8px rgba(241, 0, 0, 0.3), 0 0 32px;
+
+    position: relative;
+    top: 0px;
+    left: 0px;
+    
+}
+.neon_1::before{
+    content: '';
+    position: absolute;
+    top: 120%;
+    left: 0;
+
+    background-color: #f1b;
+
+    width: 100%;
+    height: 100%;
+
+    transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
+    filter: blur(64px);
+    opacity: 0.7;
+    pointer-events: none;
+}
+.neon_1::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 128px 32px #f1b;
+    opacity: 0;
+    background-color: #f1b;
+    z-index: -1;
+    transition: opacity 100ms linear;
+}
+.neon_1:hover::before,
+.neon_1:hover::after{
+    opacity: 1;
+}
+.neon_1:hover{
+    color: #10161F;
+    background-color: #f1b;
+    text-shadow: none;
+}
+
+
+
+
+
+.neon_2{
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    
+    margin-top: 90px;
+    display: inline-block;
+    color: #f1b;
+    padding: 27px 64px;
+    border: #f1b 8px solid; 
+    border-radius: 16px;
+    background-color: #10161F;
+
+
+    box-shadow: inset 0 0 32px 0 #f1b, 0 0 32px 0 #f1b;
+    text-shadow: 0 0 8px rgba(241, 0, 0, 0.3), 0 0 32px;
+
+    position: relative;
+    top: 0px;
+    left: 0px;
+    
+}
+.neon_2::before{
+    content: '';
+    position: absolute;
+    top: 120%;
+    left: 0;
+
+    background-color: #f1b;
+
+    width: 100%;
+    height: 100%;
+
+    transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
+    filter: blur(64px);
+    opacity: 0.7;
+    pointer-events: none;
+}
+.neon_2::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 128px 32px #f1b;
+    opacity: 0;
+    background-color: #f1b;
+    z-index: -1;
+    transition: opacity 100ms linear;
+}
+.neon_2:hover::before,
+.neon_2:hover::after{
+    opacity: 1;
+}
+.neon_2:hover{
+    color: #10161F;
+    background-color: #f1b;
+    text-shadow: none;
+}
+
+
+
+
+
