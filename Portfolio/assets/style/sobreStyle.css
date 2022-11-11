@@ -1,19 +1,18 @@
 section.sobre{
     background-color: #0F151D;
 }
-/* .image_2{
-    width: 50%; 
-} */
-.image_2{
-    /* margin-right: 300px; */
+.image_2{ 
+    margin-top: 50px;
     width: 50%;
-    padding: 5% 10%;
-}
-.image_2 > img{
-    width: 100%;
+    object-fit: scale-down;
+    padding: 5%;
+    height: 550px;
 }
 .sobre_texto{
-    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 15%;
+    width: 50%;
+    padding-right: 200px;
 }
 .sobre_texto h2{
     margin: 100px 0 50px 0;
@@ -23,4 +22,29 @@ section.sobre{
 .sobre_texto h3{
     font-size: 26px;
     color: #C0C0C0;
+}
+@media (max-width: 1700px){
+    .image_2{
+        width: 40%;
+    }
+    .sobre_texto{
+        width: 60%;
+    }
+}
+@media (max-width: 1417px){
+    .image_2{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .sobre_texto{
+        width: 100%;
+        text-align: center;
+        padding: 0 10%;
+    }
+}
+@media (max-width: 768px){
+    .sobre_texto h3{
+        font-size: 22px;
+        color: #C0C0C0;
+    }
 }

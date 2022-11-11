@@ -20,10 +20,10 @@ footer > .center > div > a{
     margin: 20px;
 }
 footer > .center > div > a >i:hover{
-    animation: shake 0.7s ;
+    animation: rotate 0.7s ;
     animation-iteration-count: 1;
 }
-@keyframes shake{
+@keyframes rotate{
     0%{
         transform: rotateZ(0deg);
     }

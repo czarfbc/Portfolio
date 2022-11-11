@@ -3,7 +3,7 @@ window.addEventListener('scroll',()=>{
     let headerScroll = document.querySelector('header');
     headerScroll.classList.toggle('scroll', window.scrollY > 30);
 })
-//============AJUSTAR TAMANHO DO HEADER==============//
+//============-------------------------==============//
 
 
 
@@ -12,12 +12,13 @@ window.sr = ScrollReveal({ reset: true });
 ScrollReveal({ distance: '15px' });
 sr.reveal('.mockup_texto', { duration: 2500 })
 sr.reveal('.image_1', { duration: 2500 })
+sr.reveal('.image_2', { duration: 2500 })
 sr.reveal('.reveal', { duration: 2500 })
 sr.reveal('.img', { duration: 2500 })
 sr.reveal('.box_p', { duration: 2500 })
 sr.reveal('.box_h1', { duration: 2500 })
 sr.reveal('.habi_texto', { duration: 2500 })
-//================ANIMAÇAO AO SCROLAR================//
+//================-------------------================//
 
 
 
@@ -40,8 +41,11 @@ skills.forEach((elemento, index)=>{
         descricao.innerHTML = `<p>/* Passe o mouse por cima de alguma habilidade para ler a descrição */</P>`
     })
 })
-//========MUDAR TEXTO CONFORME PASSA O MOUSE========//
+//========----------------------------------========//
 
+
+
+//===================MENU MOBILE====================//
 const mobileBtn = document.querySelector('.menu-mobile i')
 mobileBtn.addEventListener('click',()=>{
     let itensMobile = document.querySelector('.itens-mobile');
@@ -62,3 +66,4 @@ mobileBtn.addEventListener('click',()=>{
         })
     })
 })
+//===================-----------====================//
