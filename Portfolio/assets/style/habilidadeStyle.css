@@ -71,3 +71,16 @@ section.habilidades{
         text-align: center;
     }
 }
+@media (max-width: 550px) {
+    .habilidades > .center > h2{
+        font-size: 50px;
+    }
+    .habi_texto{
+        font-size: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .habilidades > .center > h2{
+        font-size: 40px;
+    }
+}

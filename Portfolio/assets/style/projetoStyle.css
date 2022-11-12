@@ -52,3 +52,13 @@ section.projetos{
     z-index: 0;
     padding: 20px 0px 150px 0px;
 }
+@media (max-width: 550px) {
+    .projetos > .center > h2{
+        font-size: 50px;
+    }
+}
+@media (max-width: 500px) {
+    .projetos > .center > h2{
+        font-size: 40px;
+    }
+}

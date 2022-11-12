@@ -124,7 +124,15 @@
     text-shadow: none;
 }
 
-
+@media (max-width: 465px){
+    .neon_1{
+        font-size: 30px;
+    }
+    .neon_2{
+        font-size: 20px;
+        padding: 27px 64px;
+    }
+}
 
 
 
