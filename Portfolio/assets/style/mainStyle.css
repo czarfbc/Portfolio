@@ -20,14 +20,10 @@ body *{
     width: 5px;
     border-radius: 5px;
 }
-
-
-
 .center{
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    /* position: absolute; */
 }
 
 
@@ -60,8 +56,6 @@ header.scroll{
 .logo:hover{
     text-shadow: 0 0 8px rgba(241, 0, 0, 0.3), 0 0 32px;
 }
-
-
 .menu{
     display: flex;
     justify-content: center;
@@ -80,6 +74,7 @@ header.scroll{
 }
 
 
+
 .mockup{
     background-color: #10161F;
     width: 100%;
@@ -93,7 +88,7 @@ header.scroll{
 }
 .image_1{
     width: 40%;
-    margin: 7% 0 0 0;
+    margin-top: 7%;
 }
 .image_1 > img{
     width: 100%;
@@ -132,6 +127,7 @@ header.scroll{
     font-size: 23px;
     cursor: pointer;
 }
+
 
 @media (max-width: 1500px){
     header{
@@ -180,7 +176,6 @@ header.scroll{
 
     }
     .itens-mobile a{
-
         text-decoration: none;
         font-size: 20px;
         color: white;
@@ -189,9 +184,40 @@ header.scroll{
     .itens-mobile a:hover{
         color: gold;
     }
-}
-@media (max-width: 768px){
     .mockup_texto{
         padding: 20% 0%;
+    }
+}
+@media (max-width: 450px){
+    .mockup_texto h1{
+        font-size: 20px;
+    }
+    .mockup_texto h1 > span{
+        font-size: 40px;
+    }
+    .mockup_texto{
+        padding: 30% 0%;
+    }
+}
+@media (max-width: 350px){
+    .mockup_texto h1{
+        font-size: 18px;
+    }
+    .mockup_texto h1 > span{
+        font-size: 35px;
+    }
+    .mockup_texto{
+        padding: 45% 0%;
+    }
+}
+@media (max-width: 300px){
+    .mockup_texto h1{
+        font-size: 16px;
+    }
+    .mockup_texto h1 > span{
+        font-size: 30px;
+    }
+    .mockup_texto{
+        padding: 45% 0%;
     }
 }

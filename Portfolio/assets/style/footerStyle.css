@@ -7,19 +7,24 @@ footer > .center{
     justify-content: space-between;
     align-items: center;
 }
-footer h3{
-    font-size: 20px;
-    margin: 20px 40px;
+.footer_info{
+    display: block;
+    margin: 15px 5px;
 }
-footer > .center > div{
+.footer_info p{
+    font-size: 20px;
+    
+    font-weight: 700;
+}
+.icon_footer{
     margin-right: 50px;
 }
-footer > .center > div > a{
+.icon_footer > a{
     text-decoration: none;
     color: #ffffff;
-    margin: 20px;
+    margin-left: 20px;
 }
-footer > .center > div > a >i:hover{
+.icon_footer > a >i:hover{
     animation: rotate 0.7s ;
     animation-iteration-count: 1;
 }
@@ -27,7 +32,6 @@ footer > .center > div > a >i:hover{
     0%{
         transform: rotateZ(0deg);
     }
-
     100%{
         transform: rotateZ(360deg);
     }
@@ -39,7 +43,15 @@ footer > .center > div > a >i:hover{
     footer > .center{
         justify-content: center;        
     }
-    footer > .center > div{
+    .footer_info p{
+        font-size: 16px;
+    }
+    .icon_footer{
         margin-left: 20px;
+    }
+}
+@media (max-width: 350px){
+    .footer_info p{
+        font-size: 14px;
     }
 }

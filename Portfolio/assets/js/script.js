@@ -13,7 +13,7 @@ ScrollReveal({ distance: '15px' });
 sr.reveal('.mockup_texto', { duration: 2500 })
 sr.reveal('.image_1', { duration: 2500 })
 sr.reveal('.image_2', { duration: 2500 })
-sr.reveal('.reveal', { duration: 2500 })
+sr.reveal('.sobre_h3', { duration: 2500 })
 sr.reveal('.img', { duration: 2500 })
 sr.reveal('.box_p', { duration: 2500 })
 sr.reveal('.box_h1', { duration: 2500 })

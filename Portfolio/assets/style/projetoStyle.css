@@ -62,3 +62,39 @@ section.projetos{
         font-size: 40px;
     }
 }
+@media (max-width: 450px) {
+    .projetos > .center > h2{
+        font-size: 35px;
+        padding: 50px;
+    }
+    .columm{
+        width: 300px;
+    }
+    .box_single_p{
+        height: 250px;
+    }
+}
+@media (max-width: 400px) {
+    .columm{
+        width: 250px;
+    }
+    .box_single_p{
+        height: 220px;
+    }
+}
+@media (max-width: 350px) {
+    .columm{
+        width: 210px;
+    }
+    .box_single_p{
+        height: 190px;
+    }
+}
+@media (max-width: 300px) {
+    .columm{
+        width: 190px;
+    }
+    .box_single_p{
+        height: 160px;
+    }
+}
