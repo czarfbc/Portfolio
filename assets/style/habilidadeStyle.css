@@ -8,7 +8,7 @@ section.habilidades{
     padding: 100px;
     text-align: center;
 }
-.colummH{
+.columnH{
     width: 50%;
 }
 .box_h1{
@@ -51,7 +51,7 @@ section.habilidades{
     section.habilidades > .center > h2{
         order: 0;
     }
-    .colummH{
+    .columnH{
         width: 100%;
         order: 2;
     }

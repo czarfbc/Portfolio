@@ -16,7 +16,7 @@ section.projetos{
     padding: 20px;
     flex-wrap: wrap;
 }
-.columm{
+.column{
     width: 330px;
     margin: 50px 25px;
 }
@@ -80,7 +80,7 @@ section.projetos{
         font-size: 35px;
         padding: 50px;
     }
-    .columm{
+    .column{
         width: 300px;
         margin: 20px 25px;
     }
@@ -89,7 +89,7 @@ section.projetos{
     }
 }
 @media (max-width: 400px) {
-    .columm{
+    .column{
         width: 250px;
     }
     .box_single_p{
@@ -97,7 +97,7 @@ section.projetos{
     }
 }
 @media (max-width: 350px) {
-    .columm{
+    .column{
         width: 210px;
     }
     .box_single_p{
@@ -109,7 +109,7 @@ section.projetos{
     }
 }
 @media (max-width: 300px) {
-    .columm{
+    .column{
         width: 190px;
     }
     .box_single_p{
