@@ -55,3 +55,8 @@ footer > .center{
         font-size: 14px;
     }
 }
+@media (max-width: 300px){
+    .footer_info p{
+        font-size: 10px;
+    }
+}
