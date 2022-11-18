@@ -22,6 +22,7 @@ section.sobre{
 .sobre_texto h3{
     font-size: 26px;
     color: #C0C0C0;
+    text-align: justify;
 }
 @media (max-width: 1700px){
     .image_2{
