@@ -32,9 +32,8 @@ section.habilidades{
     transition: 0.3s;
 }
 .box_single_h1:hover{
-    width: 230px;
-    height: 230px;
-    padding-top: 40px;
+    transform: scale(1.1);
+    border: 2px solid gold;
 }
 
 .box_single_h1 i{
@@ -54,15 +53,6 @@ section.habilidades{
     .columnH{
         width: 100%;
         order: 2;
-    }
-    .box_single_h1{
-        transition: 0.1s;
-    }
-    .box_single_h1:hover{
-        border: 2px solid gold;
-        width: 200px;
-        height: 200px;
-        padding-top: 20px;
     }
     .habi_texto{
         height: 260px;
