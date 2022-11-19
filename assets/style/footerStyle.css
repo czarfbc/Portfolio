@@ -25,12 +25,12 @@ footer > .center{
     margin-left: 20px;
 }
 .icon_footer > a >i:hover{
-    animation: rotate 0.7s ;
+    animation: rotate 0.5s ;
     animation-iteration-count: 1;
 }
 @keyframes rotate{
     0%{
-        transform: rotateZ(0deg);
+        transform: rotateZ(0deg); 
     }
     100%{
         transform: rotateZ(360deg);
