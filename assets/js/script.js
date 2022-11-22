@@ -50,19 +50,19 @@ const mobileBtn = document.querySelector('.menu-mobile i')
 mobileBtn.addEventListener('click',()=>{
     let itensMobile = document.querySelector('.itens-mobile');
 
-    if(itensMobile.classList.contains('show')){
-        itensMobile.classList.remove('show');
-        itensMobile.classList.add('hide');
+    if(itensMobile.classList.contains('mostrar')){
+        itensMobile.classList.remove('mostrar');
+        itensMobile.classList.add('ocultar');
     }else{
-        itensMobile.classList.add('show');
-        itensMobile.classList.remove('hide');
+        itensMobile.classList.add('mostrar');
+        itensMobile.classList.remove('ocultar');
     }
 
     const itenSolo = document.querySelectorAll('.itemSolo')
     itenSolo.forEach((elemento)=>{
         elemento.addEventListener('click',()=>{
-            itensMobile.classList.remove('show');
-            itensMobile.classList.add('hide');
+            itensMobile.classList.remove('mostrar');
+            itensMobile.classList.add('ocultar');
         })
     })
 })

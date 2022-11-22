@@ -164,10 +164,10 @@ header.scroll{
         padding: 20px 20px 20px 5px;
         text-align: center;
     }
-    .show{
+    .mostrar{
         opacity: 1;
     }
-    .hide{
+    .ocultar{
         opacity: 0;
     }
     .itens-mobile li{
