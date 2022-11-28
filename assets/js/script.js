@@ -7,17 +7,59 @@ window.addEventListener('scroll',()=>{
 
 
 
+//===================MENU MOBILE====================//
+const mobileBtn = document.querySelector('.menu-mobile i')
+mobileBtn.addEventListener('click',()=>{
+    let itensMobile = document.querySelector('.itens-mobile');
+
+    if(itensMobile.classList.contains('mostrar')){
+        itensMobile.classList.remove('mostrar');
+        itensMobile.classList.add('ocultar');
+    }else{
+        itensMobile.classList.add('mostrar');
+        itensMobile.classList.remove('ocultar');
+    }
+
+    const itenSolo = document.querySelectorAll('.itemSolo')
+    itenSolo.forEach((elemento)=>{
+        elemento.addEventListener('click',()=>{
+            itensMobile.classList.remove('mostrar');
+            itensMobile.classList.add('ocultar');
+        })
+    })
+})
+//===================-----------====================//
+
+
+
+
+//===========EFEITO MAQUINA DE ESCREVER=============//
+const nome = document.querySelector('#name');
+function typeWriter(elemento){
+    const txtArray = elemento.innerHTML.split('');
+    elemento.innerHTML= ''
+    txtArray.forEach((letra,i) => {
+        setTimeout(()=>{
+            elemento.innerHTML += letra;
+        },120 * i)
+    });
+}
+typeWriter(nome);
+//================-------------------================//
+
+
+
 //================ANIMAÇAO AO SCROLAR================//
 window.sr = ScrollReveal({ reset: true });
 ScrollReveal({ distance: '15px' });
-sr.reveal('.mockup_texto', { duration: 2500 })
-sr.reveal('.image_1', { duration: 2500 })
-sr.reveal('.image_2', { duration: 2500 })
-sr.reveal('.sobre_h3', { duration: 2500 })
-sr.reveal('.img', { duration: 2500 })
-sr.reveal('.box_p', { duration: 2500 })
-sr.reveal('.box_h1', { duration: 2500 })
-sr.reveal('.habi_texto', { duration: 2500 })
+sr.reveal('.mockup_texto', { duration: 2500 });
+sr.reveal('.image_1', { duration: 2500 });
+sr.reveal('.image_2', { duration: 2500 });
+sr.reveal('.sobre_h3', { duration: 2500 });
+sr.reveal('.img', { duration: 2500 });
+sr.reveal('.box_p', { duration: 2500 });
+sr.reveal('.box_h1', { duration: 2500 });
+sr.reveal('.habi_texto', { duration: 2500 });
 //================-------------------================//
 
 
@@ -42,28 +84,3 @@ skills.forEach((elemento, index)=>{
     })
 })
 //========----------------------------------========//
-
-
-
-//===================MENU MOBILE====================//
-const mobileBtn = document.querySelector('.menu-mobile i')
-mobileBtn.addEventListener('click',()=>{
-    let itensMobile = document.querySelector('.itens-mobile');
-
-    if(itensMobile.classList.contains('mostrar')){
-        itensMobile.classList.remove('mostrar');
-        itensMobile.classList.add('ocultar');
-    }else{
-        itensMobile.classList.add('mostrar');
-        itensMobile.classList.remove('ocultar');
-    }
-
-    const itenSolo = document.querySelectorAll('.itemSolo')
-    itenSolo.forEach((elemento)=>{
-        elemento.addEventListener('click',()=>{
-            itensMobile.classList.remove('mostrar');
-            itensMobile.classList.add('ocultar');
-        })
-    })
-})
-//===================-----------====================//

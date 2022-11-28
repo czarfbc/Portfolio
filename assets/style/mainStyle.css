@@ -112,9 +112,22 @@ header.scroll{
     color: white;
     font-weight: 400;
 }
-.mockup_texto h1 > span{
+#name{
     font-size: 50px;
     font-weight: 700;
+}
+#name::after{
+    content: '|';
+    animation: blink 0.85s infinite;
+    font-size: 40px;
+}
+@keyframes blink {
+    0%,100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
 }
 
 .menu-mobile{
@@ -192,8 +205,11 @@ header.scroll{
     .mockup_texto h1{
         font-size: 20px;
     }
-    .mockup_texto h1 > span{
+    #name{
         font-size: 40px;
+    }
+    #name::after{
+        font-size: 30px;
     }
     .mockup_texto{
         padding: 30% 0%;
@@ -203,8 +219,11 @@ header.scroll{
     .mockup_texto h1{
         font-size: 18px;
     }
-    .mockup_texto h1 > span{
+    #name{
         font-size: 35px;
+    }
+    #name::after{
+        font-size: 28px;
     }
     .mockup_texto{
         padding: 45% 0%;
@@ -214,8 +233,11 @@ header.scroll{
     .mockup_texto h1{
         font-size: 16px;
     }
-    .mockup_texto h1 > span{
+    #name{
         font-size: 30px;
+    }
+    #name::after{
+        font-size: 24px;
     }
     .mockup_texto{
         padding: 45% 0%;
