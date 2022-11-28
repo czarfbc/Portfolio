@@ -52,7 +52,7 @@ typeWriter(nome);
 //================ANIMAÇAO AO SCROLAR================//
 window.sr = ScrollReveal({ reset: true });
 ScrollReveal({ distance: '15px' });
-sr.reveal('.mockup_texto', { duration: 2500 });
+sr.reveal('.mockup_texto', { duration: 500 });
 sr.reveal('.image_1', { duration: 2500 });
 sr.reveal('.image_2', { duration: 2500 });
 sr.reveal('.sobre_h3', { duration: 2500 });
