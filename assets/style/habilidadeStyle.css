@@ -31,8 +31,12 @@ section.habilidades{
     flex-grow: 1;
     transition: 0.3s;
 }
+.box_h1:has(.box_single_h1:hover) .box_single_h1:not(:hover){
+    opacity: 0.6;
+    scale: 0.98;
+}
 .box_single_h1:hover{
-    transform: scale(1.07);
+    scale: 1.07;
     border: 2px solid gold;
 }
 
